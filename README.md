@@ -51,6 +51,9 @@ This repository contains a variety of utility scripts for Windows and Linux. Bel
 - **spectroex.py**  
   An advanced audio visualization and analysis tool built with PyQt5, librosa, and matplotlib. It offers multiple visualization modes (e.g., STFT, MFCC, Chromagram) and interactive analysis features.
 
+- **forensimage.py**  
+  An interactive image forensics and visualization tool built with PyQt5, PIL, and matplotlib. It allows you to load an image and apply various processing modes (e.g., grayscale, edge detection, Fourier transform, error level analysis) and supports chaining multiple operations via sequential analysis, with adjustable parameters for in-depth forensic investigations.
+
 ## Other Files
 
 - **a.mp3**  
