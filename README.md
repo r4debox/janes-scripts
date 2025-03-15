@@ -1,8 +1,16 @@
-it's shit! And your implementation sucks!
+It's shit! And your implementation sucks!
 Yes, you're probably correct. Feel free to "Not use it" and there is a pull button to "Make it better".
 # Scripts Overview
 
 This repository contains a variety of utility scripts for Windows and Linux. Below is a brief description of each script (excluding the fonts and obfu tools).
+## Powershell scripts
+- **ComCommander.ps1**
+
+*ComCommander.ps1* is a comprehensive diagnostic and management tool for COM ports and USB devices on Windows. It packs a wide range of features including:
+
+- Basic Diagnostics: Listing active COM ports, retrieving device info, checking driver health, and monitoring serial data.
+- Advanced Diagnostics: Auto-detecting baud rate, exporting detailed diagnostic reports, and dynamic monitoring of COM port changes.
+- Enhanced Testing: Virtual loopback self-test, advanced error logging, serial port fuzzing, and retrieval of boot messages.
 
 ## Batch Scripts
 
