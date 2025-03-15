@@ -1,21 +1,20 @@
 It's shit! And your implementation sucks!
 Yes, you're probably correct. Feel free to "Not use it" and there is a pull button to "Make it better".
+
 # Scripts Overview
 
 This repository contains a variety of utility scripts for Windows and Linux. Below is a brief description of each script
 
-
 ## Powershell scripts
 - **ComCommander.ps1**
 
-*ComCommander.ps1* is a comprehensive diagnostic and management tool for COM ports and USB devices on Windows. It packs a wide range of features including:
-
+*ComCommander.ps1*
+A comprehensive diagnostic and management tool for COM ports and USB devices on Windows. It packs a wide range of features including:
 - Basic Diagnostics: Listing active COM ports, retrieving device info, checking driver health, and monitoring serial data.
 - Advanced Diagnostics: Auto-detecting baud rate, exporting detailed diagnostic reports, and dynamic monitoring of COM port changes.
 - Enhanced Testing: Virtual loopback self-test, advanced error logging, serial port fuzzing, and retrieval of boot messages.
 
 ## Batch Scripts
-
 - **audio.bat**  
   Restarts Windows audio services by stopping and starting the *audiosrv* and *AudioEndpointBuilder* services.
 
@@ -54,7 +53,6 @@ This repository contains a variety of utility scripts for Windows and Linux. Bel
   Lists all WMI aliases and their corresponding class names. It can also filter the output by a specified alias.
 
 ## Python Scripts
-
 - **noaasnow.py**  
   Uses Selenium to download NOAA satellite imagery. It navigates to a NOAA site, triggers a GIF download, and either sends the file to a webhook (if under 8MB) or compresses it using ffmpeg.
 
@@ -65,7 +63,6 @@ This repository contains a variety of utility scripts for Windows and Linux. Bel
   An interactive image forensics and visualization tool built with PyQt5, PIL, and matplotlib. It allows you to load an image and apply various processing modes (e.g., grayscale, edge detection, Fourier transform, error level analysis) and supports chaining multiple operations via sequential analysis, with adjustable parameters for in-depth forensic investigations.
 
 ## Other Files
-
 - **a.mp3**  
   A sample audio file used for testing and by the conversion scripts.
 
