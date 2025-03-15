@@ -2,7 +2,9 @@ It's shit! And your implementation sucks!
 Yes, you're probably correct. Feel free to "Not use it" and there is a pull button to "Make it better".
 # Scripts Overview
 
-This repository contains a variety of utility scripts for Windows and Linux. Below is a brief description of each script (excluding the fonts and obfu tools).
+This repository contains a variety of utility scripts for Windows and Linux. Below is a brief description of each script
+
+
 ## Powershell scripts
 - **ComCommander.ps1**
 
